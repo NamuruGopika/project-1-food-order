@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin: 0.5em 0;
+}
+
+/* Header Section */
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Featured Dishes Section */
+.featured-dishes {
+    padding: 2em;
+    text-align: center;
+}
+
+.featured-dishes h2 {
+    margin-bottom: 1em;
+    color: #ff6347;
+}
+
+.dishes {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.dish {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 1em;
+    text-align: center;
+}
+
+.dish img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.dish h3 {
+    margin: 0.5em 0;
+    color: #333;
+}
+
+.dish p {
+    font-size: 1.2em;
+    color: #ff6347;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}

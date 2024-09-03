@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order Menu</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1, h2 {
+            color: #ff6347;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 1em;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        /* Menu Section */
+        .menu-category {
+            margin: 2em 0;
+        }
+
+        .menu-category h2 {
+            border-bottom: 2px solid #ff6347;
+            padding-bottom: 0.5em;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 1em 0;
+            padding: 1em;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-item h3 {
+            margin: 0;
+        }
+
+        .menu-item p {
+            margin: 0.5em 0;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .menu-item span {
+            font-weight: bold;
+            color: #ff6347;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menu Header -->
+    <h1>Our Menu</h1>
+
+    <!-- Menu Items -->
+    <div class="container">
+        <!-- Starters -->
+        <div class="menu-category">
+            <h2>Starters</h2>
+
+            <div class="menu-item">
+                <div>
+                    <h3>Garlic Bread</h3>
+                    <p>Crispy garlic bread served with a side of marinara sauce.</p>
+                </div>
+                <span>$5.99</span>
+            </div>
+
+            <div class="menu-item">
+                <div>
+                    <h3>Bruschetta</h3>
+                    <p>Grilled bread topped with fresh tomatoes, basil, and balsamic glaze.</p>
+                </div>
+                <span>$6.99</span>
+            </div>
+        </div>
+
+        <!-- Main Courses -->
+        <div class="menu-category">
+            <h2>Main Courses</h2>
+
+            <div class="menu-item">
+                <div>
+                    <h3>Margherita Pizza</h3>
+                    <p>Classic pizza with tomato, mozzarella, and fresh basil.</p>
+                </div>
+                <span>$12.99</span>
+            </div>
+
+            <div class="menu-item">
+                <div>
+                    <h3>Spaghetti Carbonara</h3>
+                    <p>Pasta with pancetta, egg, and parmesan cheese.</p>
+                </div>
+                <span>$14.99</span>
+            </div>
+        </div>
+
+        <!-- Desserts -->
+        <div class="menu-category">
+            <h2>Desserts</h2>
+
+            <div class="menu-item">
+                <div>
+                    <h3>Tiramisu</h3>
+                    <p>Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cheese.</p>
+                </div>
+                <span>$7.99</span>
+            </div>
+
+            <div class="menu-item">
+                <div>
+                    <h3>Chocolate Lava Cake</h3>
+                    <p>Rich chocolate cake with a gooey molten center.</p>
+                </div>
+                <span>$8.99</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
